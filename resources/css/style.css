@@ -17,3 +17,22 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/rinjani1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.mainpage-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    margin: 0;
+}
